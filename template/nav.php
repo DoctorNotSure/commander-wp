@@ -31,7 +31,7 @@ $nav_style .= " background-color: " . get_theme_mod('header_background_color', '
 				$logo_id = get_theme_mod('custom_logo');
 				$logo_url = wp_get_attachment_image_src($logo_id , 'full');
 
-				$logo_style = "width: " . get_theme_mod('logo_width', '35') . 'px;';
+				$logo_style = "width: " . get_theme_mod('logo_width', '30') . 'px;';
 				$logo_classes = "d-inline-block align-text-top img-fluid";
 				if (get_theme_mod('logo_add_shadow', false))
 					$logo_classes .= " shadow";

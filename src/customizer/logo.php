@@ -8,7 +8,7 @@ add_action('customize_register', function($customize_manager) {
 	$customize_manager->add_setting(
 		'logo_width',
 		array(
-			'default'           => 35,
+			'default'           => 30,
 			'transport'         => 'refresh',
 			'sanitize_callback' => 'absint',
 		)
